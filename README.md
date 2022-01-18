@@ -10,6 +10,15 @@ npm install
 ```
 
 You need to set a Flickr API key inside src/environment/environment.ts file.
+```
+export const environment = {
+  production: false,
+  flickr: {
+    key: 'PUBLIC_KEY_HERE',
+    secret: 'SECRET_KEY_HERE'
+  }
+};
+```
 
 ## Usage
 
